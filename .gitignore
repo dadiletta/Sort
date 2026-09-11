@@ -25,7 +25,9 @@
 hs_err_pid*
 replay_pid*
 
-# Build output
+# Build output. bin/ is where the VS Code Java extension puts compiled
+# classes by default, so it is the one that actually fills up here.
+bin/
 target/
 out/
 build/
@@ -43,7 +45,11 @@ build/
 .factorypath
 
 # IDE - VSCode
-.vscode/
+# .vscode/ IS DELIBERATELY NOT IGNORED. It carries this lab's editor setup —
+# java.debug.settings.console, which is what stops a Scanner prompt looking
+# like a frozen program — and the extension recommendations. Ignoring it,
+# which this file did until blam 289, means the folder is committed here and
+# silently absent from every copy a student makes.
 *.code-workspace
 
 # IDE - NetBeans

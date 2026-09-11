@@ -1,0 +1,36 @@
+{
+  // THE ONE THAT MATTERS FOR THIS LAB, and for the same reason it matters in
+  // Magpie: buildList() reads what the user types. VS Code's internal debug
+  // console is read-only, so a student running there watches the prompt print
+  // and then cannot answer it — the program looks frozen and the lab looks
+  // broken on the first run. The integrated terminal takes input.
+  "java.debug.settings.console": "integratedTerminal",
+
+  // Rebuild without asking. The alternative is a "project configuration is out
+  // of date" prompt that a beginner reads as an error.
+  "java.configuration.updateBuildConfiguration": "automatic",
+
+  // Don't ask a fifteen-year-old to make a telemetry decision on their first
+  // day in the editor.
+  "redhat.telemetry.enabled": false,
+
+  // Findable. The whole show-me-your-screen flow starts with locating this
+  // control, and "it is in the status bar" is a thing that can be said over a
+  // classroom.
+  "liveshare.showInStatusBar": "always",
+
+  // Nobody joins without the student saying yes, every time. Their machine,
+  // their files. Live Share's own default is the opposite — a signed-in guest
+  // joins without being approved — so this line is doing real work rather than
+  // restating a default.
+  "liveshare.guestApprovalRequired": true,
+
+  // Off the public listing. A session here is shared by sending its link to
+  // one person.
+  "liveshare.publishWorkspaceInfo": false,
+
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/*.class": true
+  }
+}

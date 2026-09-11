@@ -98,6 +98,33 @@ Divide the list in half, sort each half, then merge the two sorted halves back t
 
 ## Getting Started
 
-1. Implement all abstract methods in `Activity1` and `Activity2`.
-2. Run `Activity1.main()` to test your integer implementation.
-3. Run `Activity2.main()` to test your name implementation.
+1. Open the folder in **VS Code**. `src/` holds the code; `bin/` is where the
+   compiled classes land and is gitignored.
+2. Run **`Activity1.java`** before changing anything. It should start, do
+   nothing, and exit without an error — that is the starter working, and it is
+   worth seeing once so you know the difference later.
+3. Fill in the methods in `Activity1`, running after each one.
+4. Do the same in `Activity2`.
+5. Commit as you go, and **send your teacher the link to your repository** —
+   pushing saves your work, the link is what hands it in.
+
+Every method in both Activity files is already written out with an empty body.
+That is on purpose: `Activity1 extends IntegerManager` means the file does not
+compile until all six abstract methods exist, so they are there and empty
+rather than missing. The empty bodies are the assignment.
+
+Two of them return a placeholder — `pickRandom()` gives back `0` in `Activity1`
+and `null` in `Activity2` — for the same reason. A method with a return type has
+to return something to compile. Neither is an answer.
+
+## When you are stuck
+
+Do not describe it. Show it. Click **Live Share** along the bottom edge of VS
+Code, in the status bar. It starts a session and copies a link. Paste that link
+into Google Chat, send it to your teacher, and go back to work.
+
+The link on its own is enough and you do not need a reply — it opens your file
+in their editor, so they can put a cursor on your broken line while you are
+still looking at it. Sending it is the same as putting your hand up, and it
+saves them the walk across the room. You see who joins the moment they do, and
+you can stop the session whenever you like.
