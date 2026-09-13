@@ -3,14 +3,14 @@
  *
  * This class `extends IntegerManager`, so every abstract method that class
  * declares has to exist here for the file to compile, and it
- * `implements PrintPretty`, which adds one more. That is why all eight are
+ * `implements PrintPretty`, which adds one more. That is why all seven are
  * already written out below with empty bodies: without them this file does not
  * compile at all, and a starter that will not run is a starter you cannot
  * check your setup with.
  *
  * The bodies are the assignment. Each one says what it owes you; the README
  * says how each algorithm works. Run this file after every method you finish
- * rather than writing all eight and then looking for the bug in all eight.
+ * rather than writing all seven and then looking for the bug in all seven.
  *
  * `nums` comes from IntegerManager and starts as null — buildList() is where
  * you create the array, which is why it is the first one to write.
