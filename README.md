@@ -128,3 +128,7 @@ in their editor, so they can put a cursor on your broken line while you are
 still looking at it. Sending it is the same as putting your hand up, and it
 saves them the walk across the room. You see who joins the moment they do, and
 you can stop the session whenever you like.
+
+## License
+
+Everything here was written for this course, MIT licensed. See `LICENSE`.
